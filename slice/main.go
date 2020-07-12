@@ -8,6 +8,10 @@ func initslice(len int, element string) []string{
 	//fmt.Println("slice :", s)
 	return s
 }
+
+func Interceptslice(s []string, start int, end int) []string{
+	return s[start:end]
+}
 func main() {
 
 	// Unlike arrays, slices are typed only by the
